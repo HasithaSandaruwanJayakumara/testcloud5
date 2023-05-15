@@ -1,0 +1,27 @@
+// Font Family 
+
+$font1: 'Poppins', sans-serif;
+
+$font2: 'Montserrat', sans-serif;
+
+// Colors
+$white: #fff;
+
+$text: #7a808d;
+
+$title: #011a3e;
+
+$theme_color: #F6921E;
+
+
+// Responsive Variables
+$laptop: 'only screen and (min-width: 1200px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1200px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$es:'(max-width: 497px)';
+$es2:'(max-width: 440px)';
+$es3:'(max-width: 387px)';
+// $es2: 'only screen and (min-width: 576px) and (max-width: 440px)';
+// $sm: 'only screen and (min-width: 576px) and (max-width: 767px)';

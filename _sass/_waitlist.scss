@@ -1,0 +1,66 @@
+.email_box{
+    margin-bottom: 10px;
+    input{
+        box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.15);
+        background-color: #fff; 
+        margin-left: 15px; 
+        height: 45px; 
+        padding-left: 20px; 
+        border-radius: 15px 0px 0px 15px;
+        @media #{$lg}{
+            width: 250px;
+		}
+        @media #{$es}{ 
+            margin-bottom: 15px;
+            margin-left: 20px;
+            width: 400px;
+            align-items: center;
+			border-radius: 15px;
+            text-align: centr   
+		}
+        @media #{$es2}{
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 350px;
+			border-radius: 15px;     
+		}
+        @media #{$es3}{
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 290px;
+			border-radius: 15px;     
+		}
+    }
+}
+.email_btn{
+    margin-bottom: 10px;
+    button{
+        color: #fff; 
+        height: 45px; 
+        width: 170px; 
+        background-color: #F6921E; 
+        border-radius: 0px 15px 15px 0px; 
+        box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.15);
+        @media #{$lg}{
+            width: 130px;
+		}
+        @media #{$es}{
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 400px;
+			border-radius: 15px;     
+		}
+        @media #{$es2}{
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 350px;
+			border-radius: 15px;     
+		}
+        @media #{$es3}{
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 290px;
+			border-radius: 15px;     
+		}
+    }
+}

@@ -1,0 +1,20 @@
+#Please use the main menu items under the "text"
+- text: Features
+  submenu:
+  - text: Time Tracking
+    url: /time-tracking
+  - text: Time Clock App
+    url: /time-clock-app
+  - text: Activity Tracking
+    url: /activity-tracking
+  - text: Time Reporting
+    url: /time-reporting
+  - text: Project Management
+    url: /project-management
+- text: Pricing 
+  url: /HoneybeeTime/404
+- text: Book a demo
+  url: /HoneybeeTime/404 
+- text: Log In
+  url: https://app.honeybeetime.com/login
+ 

@@ -1,0 +1,75 @@
+.des_01{
+    .deneb_content_box{
+		h2{
+			position: relative;
+			&:after{
+			    position: absolute;
+			    content: '';
+			    left: -10px;
+			    top: -20px;
+			    background: url(../images/shape/title.png) no-repeat;
+			    display: inline-block;
+			    width: 96px;
+			    height: 67px;
+			    z-index: -1;
+			}
+		}
+	}
+    margin-bottom: 100px;
+	overflow: hidden;
+	.deneb_img_box{
+		@media #{$md}{
+			margin-bottom: 60px;
+		}
+		@media #{$xs}{
+			margin-bottom: 60px;
+		}
+	}
+	.deneb_content_box{
+		margin-left: 20px;
+		h2{
+			margin-bottom: 40px;
+			@media #{$xs}{
+				font-size: 28px;
+			}
+		}
+		p{
+			padding-bottom: 20px;
+		}
+		.deneb_btn{
+			margin-top: 20px;
+			min-width: 155px;
+		}
+	}
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	&:after{
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		background: url(../images/shape/shape_7.png) no-repeat;
+		background-position: center right;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+	}
+	.deneb_img_box{
+		max-width: 670px;
+		img{
+			position: relative;
+			z-index: 9999;
+		}
+		// &:after{
+		// 	position: absolute;
+		// 	content: '';
+		// 	left: 0;
+		// 	bottom: 0;
+		// 	background: url(../images/shape/ab.png) no-repeat;
+		// 	background-position: bottom left;
+		// 	width: 100%;
+		// 	height: 100%;
+		// }
+	}
+}
