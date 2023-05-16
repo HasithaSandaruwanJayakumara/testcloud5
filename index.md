@@ -9,15 +9,15 @@ title: "Affordable Time Tracking Software - HoneybeeTime"
 
 # Slider
 slider:
-  - image: "/assets/images/Main-image.png"
+  - image: "/assets/images/banner_1.png"
     h1: "Effortlessly track your every working second with <br><span>user friendly features.</span>"
     description: "Get a productive automated time-tracking software to track your teams’ or solo work time at an affordable budget."
 
 # Hero Section
-hero:
-  - image: "/assets/images/Main-image.png"
-    h1: "Effortlessly track your every working second with <br><span>user friendly features.</span>"
-    description: "Get a productive automated time-tracking software to track your teams’ or solo work time at an affordable budget."
+# hero:
+#   - image: "/assets/images/Main-image.png"
+#     h1: "Effortlessly track your every working second with <br><span>user friendly features.</span>"
+#     description: "Get a productive automated time-tracking software to track your teams’ or solo work time at an affordable budget."
       
 
 # Services
